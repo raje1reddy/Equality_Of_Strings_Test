@@ -27,15 +27,16 @@ public class EqualityMethod {
 
             // Edge case for strings like
             // String 1="Geeks" and String 2="Geeksforgeeks"
+
             if (l1 != l2) {
                 return l1 - l2;
             }
 
-            // If none of the above conditions is true,
-            // it implies both the strings are equal
             else {
                 return 0;
-            }
+            }// If none of the above conditions is true,
+            // it implies both the strings are equal
+
         }
 
         // Driver function to test the above program
